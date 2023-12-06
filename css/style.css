@@ -17,6 +17,8 @@ header{
     text-align: center;
 }
 
+/* Hero Section */
+
 #hero, footer{
     color:#696459;
     border:3px solid #E89351;
@@ -29,9 +31,13 @@ header{
     width:300px
 }
 
+/* Bio Section */
+
 #bio{
     text-align:center;
 }
+
+/* Hobbies Section*/
 
 #hobbies ul li:nth-child(even){
     color:#6B66ED;
@@ -40,4 +46,18 @@ header{
 
 #hobbies ul li:nth-child(odd){
     color:#ED6F66;
+}
+
+/* Gallery Section */
+
+#gallery{
+    border:3px solid #E89351
+}
+
+#gallery img{
+    max-width:100%
+}
+
+#gallery figure{
+    text-align:center;
 }
