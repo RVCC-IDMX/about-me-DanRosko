@@ -179,6 +179,10 @@ section#hobbies {
     border:4px outset #6B66ED;
 }
     
+/* Contact Form */
 
+#formElements{
+    display:grid;
+}
 
 
