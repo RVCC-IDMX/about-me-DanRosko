@@ -6,7 +6,11 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     font-family:"Chakra Petch";
+}
+
+h1{
     font-size:40pt;
+
 }
 
 header{
@@ -27,4 +31,13 @@ header{
 
 #bio{
     text-align:center;
+}
+
+#hobbies ul li:nth-child(even){
+    color:#6B66ED;
+    list-style-type: square;
+}
+
+#hobbies ul li:nth-child(odd){
+    color:#ED6F66;
 }
