@@ -1,0 +1,30 @@
+body{
+    font-family:"Bebas Neue";
+    background-color: #E8BE51;
+    color:#596269;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:"Chakra Petch";
+    font-size:40pt;
+}
+
+header{
+    text-align: center;
+}
+
+#hero, footer{
+    color:#696459;
+    border:3px solid #E89351;
+    background-color:#51A7E8;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img{
+    width:300px
+}
+
+#bio{
+    text-align:center;
+}
