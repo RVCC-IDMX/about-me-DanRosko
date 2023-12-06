@@ -168,3 +168,17 @@ section#hobbies {
 
 }
 
+#video iframe{
+    max-width: 560px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    background-image:radial-gradient(#292828,#ac51e8);
+    padding:.10em;
+    line-height:.65;
+    border:4px outset #6B66ED;
+}
+    
+
+
+
