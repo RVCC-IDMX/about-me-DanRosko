@@ -51,7 +51,8 @@ header{
 /* Gallery Section */
 
 #gallery{
-    border:3px solid #E89351
+    margin-bottom:2rem;
+    border:3px solid #E89351;
 }
 
 #gallery img{
@@ -61,3 +62,41 @@ header{
 #gallery figure{
     text-align:center;
 }
+
+/* Literature */
+
+#lit{
+    text-align:center;
+    border:3px solid #E89351;
+    margin-bottom:2rem;
+}
+
+#lit div{
+    padding:2rem;
+    max-width:40rem;
+    margin:0 auto;
+}
+
+#lit div p{
+    padding:0.1rem 0;
+    clear:both;
+    text-align:justify;
+}
+
+#lit div p:first-of-type:first-letter{
+    color:#6B66ED;
+    font-weight:bold;
+    background-image:radial-gradient(#292828,#ac51e8);
+    float:left;
+    font-size:3em;
+    padding:.25em;
+    margin-right:.25em;
+    line-height:.65;
+    border:4px outset #6B66ED;
+    font-family:"Chakra Petch";
+    text-shadow:2px 2px 2px rgba(0,0,0,.5);
+    box-shadow:4px 4px 4px rgba(0,0,0,.5);
+    border-top-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+}
+
