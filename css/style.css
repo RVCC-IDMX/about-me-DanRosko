@@ -117,6 +117,8 @@ section#hobbies {
     border-bottom-right-radius: .3em;
 }
 
+/* Tablet Size */
+
 @media screen and (min-width: 60em){
 
     figure{
@@ -125,13 +127,44 @@ section#hobbies {
     }
 
     figcaption{
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         font-size: 3rem;
         margin-left: 1rem;
     }
 
+    figure img{
+        width:100%;
+    }
+
+    #lit div{
+        max-width:120%;
+        columns:20rem;
+    }
+
 }
 
+/* Large Screen size */
+
+@media screen and (min-width:100em){
+
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr{
+        display: none;
+    }
+
+    #gallery h2{
+        grid-column: 1/-1;
+    }
+
+    figure{
+        display: block;
+    }
+
+}
 
