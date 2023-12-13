@@ -1,7 +1,7 @@
 body{
     font-family:"Bebas Neue";
-    background-color: #E8BE51;
-    color:#596269;
+    background-color: #f1920c;
+    color:#052d4b;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -18,7 +18,8 @@ h2 {
 }
 
 h2{
-    text-align: center;
+    text-align: left;
+    
 }
 
 header{
@@ -28,51 +29,94 @@ header{
 /* Hero Section */
 
 #hero, footer{
-    color:#696459;
+    color:#052d4b;
+    font-size: 20pt;
     border:3px solid #E89351;
     background-color:#51A7E8;
     text-align:center;
     padding:10px;
+    border: 4px groove #1C6EA4;
 }
 
 #hero img{
-    width:300px
+    width:350px;
+    -webkit-box-shadow: -2px 5px 5px 4px rgba(0,0,0,0.79); 
+    box-shadow: -2px 5px 5px 4px rgba(0,0,0,0.79);
 }
+
+
 
 /* Bio Section */
 
 #bio{
-    text-align:center;
+    text-align:left;
+    font-size:20pt;
 }
 
 /* Hobbies Section*/
 
+
 section#hobbies {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    font-size:20pt;
+    
 }
 
 #hobbies ul li:nth-child(even){
-    color:#6B66ED;
-    list-style-type: square;
+    color:#052d4b;
+    list-style-type: none;
+    font-size: 20pt;
+    padding: 20px;
 }
 
 #hobbies ul li:nth-child(odd){
-    color:#ED6F66;
-    list-style-type: square;
+    color:#052d4b;
+    list-style-type: none;
+    font-size: 20pt;
+    padding: 20px;
 }
+
 
 
 /* Gallery Section */
 
 #gallery{
+    font-size: 20pt;
     margin-bottom:2rem;
-    border:3px solid #E89351;
+    border: 5px groove #2311c5;
 }
 
 #gallery img{
-    max-width:100%
+    align-items: left;
+    border: 3px ridge #1C6EA4;
+    max-width:100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#gallery img:hover{
+    box-shadow:
+1px 1px black,
+2px 2px black,
+3px 3px black,
+4px 4px black,
+5px 5px black,
+6px 6px black;
+-webkit-transform: translateX(-4px);
+transform: translateX(-4px);
+transition: .5s ease;
+}
+
+#gallery img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
 }
 
 #gallery figure{
@@ -82,22 +126,31 @@ section#hobbies {
 
 /* Literature */
 
+#lit h2{
+    
+    text-align: left;
+}
+
 #lit{
-    text-align:center;
-    border:3px solid #E89351;
+    font-size: 20pt;
+    text-align:left;
+    border:3px solid #052d4b;
     margin-bottom:2rem;
+    border: 4px groove #052d4b;
 }
 
 #lit div{
     padding:2rem;
     max-width:40rem;
     margin:0 auto;
+    
 }
 
 #lit div p{
     padding:0.1rem 0;
     clear:both;
     text-align:justify;
+    font-size: 17pt;
 }
 
 #lit div p:first-of-type:first-letter{
@@ -108,6 +161,7 @@ section#hobbies {
     font-size:3em;
     padding:.25em;
     margin-right:.25em;
+    margin-bottom: .15em;
     line-height:.65;
     border:4px outset #6B66ED;
     font-family:"Chakra Petch";
@@ -116,6 +170,13 @@ section#hobbies {
     border-top-left-radius: .3em;
     border-bottom-right-radius: .3em;
 }
+
+#lit img{
+    max-width: 100%;
+    border: 4px ridge #052d4b;
+}
+
+
 
 /* Tablet Size */
 
@@ -135,7 +196,7 @@ section#hobbies {
     }
 
     figure img{
-        width:100%;
+        width:500px;
     }
 
     #lit div{
@@ -143,7 +204,11 @@ section#hobbies {
         columns:20rem;
     }
 
+    
+
 }
+
+
 
 /* Large Screen size */
 
@@ -168,6 +233,10 @@ section#hobbies {
 
 }
 
+#video{
+    font-size: 20pt;
+}
+
 #video iframe{
     max-width: 560px;
     width: 100%;
@@ -176,7 +245,7 @@ section#hobbies {
     background-image:radial-gradient(#292828,#ac51e8);
     padding:.10em;
     line-height:.65;
-    border:4px outset #6B66ED;
+    border:5px outset #052d4b;
 }
     
 /* Contact Form */
@@ -187,6 +256,7 @@ section#hobbies {
 }
 
 #contact{
+    font-size: 20pt;
     padding: 1rem;
     max-width: 600px;
     margin: 2rem auto;
@@ -199,8 +269,8 @@ fieldset{
 }
 
 legend{
-    background-color: #6B66ED;
-    color:white;
+    background-color: #51A7E8;
+    color:#052d4b;
     padding:.5em;
 }
 
@@ -219,8 +289,8 @@ legend{
 }
 
 #contact button{
-    background-color: #6B66ED;
-    color:white;
+    background-color: #51A7E8;
+    color:#052d4b;
     border:2px solid #6d059d;
     max-width: 300px;
     width:50%;
